@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7b7c8">
+  <meta name="description" content="Una pequeña carta de cumpleaños hecha con cariño.">
+  <title>Una carta para Tamara ♡</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="mensaje.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="ambient ambient-three" aria-hidden="true"></div>
+  <div class="sparkle sparkle-a" aria-hidden="true">✦</div>
+  <div class="sparkle sparkle-b" aria-hidden="true">✧</div>
+  <div class="sparkle sparkle-c" aria-hidden="true">✦</div>
+  <div class="floating-heart heart-a" aria-hidden="true">♡</div>
+  <div class="floating-heart heart-b" aria-hidden="true">♥</div>
+  <div class="floating-heart heart-c" aria-hidden="true">♡</div>
+
+  <main class="page-shell">
+    <header class="brandline">
+      <span class="brand-dot"></span>
+      <span>UN DETALLE HECHO CON CARIÑO</span>
+      <span class="brand-dot"></span>
+    </header>
+
+    <section class="scene" id="scene" aria-label="Carta sorpresa de cumpleaños">
+      <div class="intro" id="intro">
+        <p class="eyebrow">PSSS... TENGO ALGO PARA TI</p>
+        <h1>Tamara, una pequeña sorpresa <span>♡</span></h1>
+        <p class="intro-copy">Te preparé este detallito. Espero que te saque una sonrisa.</p>
+      </div>
+
+      <div class="letter-card" id="letterCard" aria-live="polite">
+        <div class="paper">
+          <div class="paper-border" aria-hidden="true"></div>
+          <div class="paper-top">
+            <span class="paper-tag" id="recipientTag">PARA TI, CON CARIÑO</span>
+            <span class="paper-flower" aria-hidden="true">✿</span>
+          </div>
+          <div class="paper-content">
+            <p class="letter-kicker">HOY ES TU DÍA</p>
+            <h2 id="letterTitle">¡Feliz cumpleee!</h2>
+            <p class="letter-message" id="letterMessage"></p>
+            <p class="letter-goodbye" id="letterGoodbye"></p>
+          </div>
+          <div class="paper-signoff">
+            <span class="signoff-line"></span>
+            <p id="letterSignature"></p>
+            <span class="signature-heart" aria-hidden="true">♥</span>
+          </div>
+          <div class="paper-corner corner-one" aria-hidden="true">✧</div>
+          <div class="paper-corner corner-two" aria-hidden="true">♡</div>
+        </div>
+      </div>
+
+      <div class="envelope-area" id="envelopeArea">
+        <div class="envelope-shadow" aria-hidden="true"></div>
+        <div class="envelope" id="envelope">
+          <div class="envelope-back"></div>
+          <div class="letter-peek" aria-hidden="true"></div>
+          <div class="envelope-fold left-fold" aria-hidden="true"></div>
+          <div class="envelope-fold right-fold" aria-hidden="true"></div>
+          <div class="envelope-front" aria-hidden="true"></div>
+          <div class="envelope-flap" aria-hidden="true"></div>
+          <div class="seal" aria-hidden="true"><span>♥</span></div>
+          <button class="envelope-hitarea" id="openEnvelope" type="button" aria-label="Abrir la carta de cumpleaños de Tamara"></button>
+        </div>
+        <p class="envelope-label" id="envelopeLabel">HECHA ESPECIALMENTE PARA TAMARA</p>
+      </div>
+
+      <div class="open-prompt" id="openPrompt">
+        <p><span class="tap-icon" aria-hidden="true">☝</span> Toca el sobre para descubrir tu sorpresa</p>
+      </div>
+
+      <div class="after-actions" id="afterActions" hidden>
+        <button class="text-button" id="replayButton" type="button"><span aria-hidden="true">↺</span> Cerrar carta</button>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <span>HECHO CON UN POQUITO DE MAGIA</span>
+      <span class="footer-heart">♥</span>
+      <span>Y MUCHAS GANAS DE VERTE SONREÍR</span>
+    </footer>
+  </main>
+
+</body>
+</html>

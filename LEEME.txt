@@ -1,0 +1,30 @@
+CARTA DE CUMPLEAÑOS PARA TAMARA — GUÍA RÁPIDA
+============================================
+
+1. CÓMO ABRIRLA
+- Extrae la carpeta del ZIP.
+- Entra en la carpeta "Carta_Cumpleanos".
+- Abre "index.html" con Chrome, Edge, Firefox o el navegador del celular.
+- No necesitas instalar nada.
+
+2. CÓMO SE USA
+- Para abrirla, toca o haz clic directamente sobre el sobre.
+- El sobre se abre y luego se desvanece para que no estorbe al leer.
+- Al terminar, pulsa "Cerrar carta" para volver al sobre y poder abrirla de nuevo.
+- La persona que reciba la carta solo podrá verla y volver a abrirla; no hay editor de mensajes.
+
+3. CÓMO CAMBIAR EL MENSAJE ANTES DE ENVIARLA
+- Abre el archivo "mensaje.js" con el Bloc de notas.
+- Cambia los textos que aparecen después de destinataria, titulo, mensaje, despedida y firma.
+- No modifiques las palabras que están antes de los dos puntos ni las comillas que rodean cada texto.
+- Guarda el archivo y vuelve a abrir o actualizar "index.html".
+
+4. ADAPTACIÓN DE PANTALLA
+El diseño se adapta a celulares y laptops. El tamaño del título y del mensaje se reduce automáticamente si el texto necesita más espacio. La carta permanece fija mientras aparece, para que el texto no tiemble ni se desplace.
+
+5. COMPARTIRLA
+Envía la carpeta completa comprimida en ZIP. Tamara debe extraerla y abrir "index.html".
+
+NOTAS
+- Mantén juntos index.html, styles.css, script.js y mensaje.js.
+- La carta funciona sin conexión. La tipografía web puede usar una fuente del sistema cuando no haya internet.
